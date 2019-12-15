@@ -1,0 +1,37 @@
+body { /* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+  background-color :#fff;
+  font-family :Serif;
+  font-size :15pt;
+  line-height: 1.5;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+	width: 100%;
+}
+td.cal-code{
+	border-bottom: 1px #5B8BAB solid; 
+	border-right: 1px #5B8BAB solid; 
+	height: 16px ; 
+	width: 75pt;
+}
+td.cal-morb{
+	border-bottom: 1px #5B8BAB solid; 
+	border-right: 1px #5B8BAB solid; 
+	height: 16px ; 
+	width: 200pt;
+}
+
+.date_decal{
+	position: absolute;
+	right : 20px;
+	
+}
+
+.entete_central{
+	position: absolute;
+	right : 350px;
+
+	
+}

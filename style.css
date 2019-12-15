@@ -1,0 +1,214 @@
+#titre_app{
+  width: 350px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #DF3F3F;
+  line-height: 1;
+  padding:10px 40px 5px 20px;
+  border:2px  #DF3F3F;
+  border-style:groove;
+  border-radius:3px;
+   font-size: 3em;
+}
+
+/* Just to play with animations */
+.copiedtext {
+  position: absolute;
+  left: 0; top: 0; right: 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-1em);
+  color: #000;
+  transition: all .500s;
+}
+.copied .copiedtext {
+  opacity: 1;
+  transform: translateY(-2em);
+}
+
+/*about amplitudes array */
+#tableau_amplitudes {
+	
+border: #FFFFFF;
+margin: 0.75em 2.25em;
+width: 30%;
+
+} 
+
+.th_amp {
+	width: 20%;
+}
+
+.grise {
+ border:1px solid black; 
+ background-color:blue;
+ }
+ 
+ /*about form-menu selection*/
+#select_menu {
+    margin-left: auto;
+    margin-right: auto;
+	width: 285;
+  padding: 5px 5px;
+  border: 2;
+  border-radius: 5px;
+  background-color: #DF3F3F;
+
+}
+.radio_disap{
+	  transform: scale(0, 0);
+}
+input:focus + label {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}
+input:checked + label {
+  background-color: #8fa423;
+  border: 4;
+  
+  
+}
+
+.fit-picture {
+    width: 100px;
+}
+.fit-picture-header{
+	width: 70px;
+}
+
+/* infobulle */
+.infobulle {
+  position: relative;  /* les .infobulle deviennent référents */
+  cursor: help;
+}
+
+/* on génère un élément :after lors du survol et du focus :*/
+
+.infobulle:hover::after,
+.infobulle:focus::after {
+  content: attr(aria-label);  /* on affiche aria-label */
+  position: absolute;
+  top: -0em;
+  left: 50%;
+  transform: translateX(100%); /* on centre horizontalement  */
+  z-index: 1; /* pour s'afficher au dessus des éléments en position relative */
+  white-space: nowrap;  /* on interdit le retour à la ligne */
+}
+ 
+ 
+}
+
+/* padding style */
+.marge8 {
+margin-left: 8em;
+}
+.marge7 {
+margin-left: 7em;
+}
+.marge6 {
+margin-left: 6em;
+}
+.marge5 {
+margin-left: 5em;
+}
+.marge4 {
+margin-left: 4em;
+}
+.marge3 {
+margin-left: 3em;
+}
+.marge2 {
+margin-left: 2em;
+}
+.marge1 {
+margin-left: 1em;
+}
+
+/* Some Generic styles */
+html {
+  background-color: #FFFFFF;
+}
+body {
+  text-align:left;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #444;
+  line-height: 1.5;
+}
+h1 {
+  margin: 1.75em auto 1.25em;
+}
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+legend {
+ color:#DF3F3F;
+ font-weight:bold
+ }
+textarea, button,input[type=text],input[type=date],input[type=nombre], select {
+  font-size: 1em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+textarea {
+
+  width: 90%;
+  max-width: 100%;
+  margin: 0.1em  0.5em;
+  background: #F2F2F6;
+  border: 1px solid #ddd;
+  padding: 5px 5px;
+  resize: vertical;
+}
+[id="cleared"] {
+  margin-top: 4em;
+}
+textarea:focus {
+  border-color: #8fa423;
+}
+input[type=text],input[type=nombre]{
+	  background: #F2F2F6;
+	  border: 1px solid #ddd;
+}
+input[type=submit]{
+	  background: #87CEFA;
+	  border: 1px solid #ddd;
+	  color: #FFF;
+	  padding: 8px 20px;
+	  border: 0;
+  font-size: 0.835em;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-weight: bold;
+}
+
+button {
+  position: relative;
+  padding: 8px 20px;
+  border: 0;
+  font-size: 0.835em;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-weight: bold;
+  color: #FFF;
+  background: #8fa423;
+  transition: background .275s;
+}
+button:hover,
+button:focus {
+  background: #74861A;
+}
+
+select {
+  padding: 1px 10px;
+  border: 1;
+  border-radius: 1px;
+  background-color: #f1f1f1;
+}
+
+p {
+  margin-top: 3.25em;
+  font-size: .825em;
+  color: #777;
+  font-weight: bold;
+  letter-spacing: .01em
+}
