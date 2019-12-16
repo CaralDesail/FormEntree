@@ -202,7 +202,7 @@ var string_examen_patient3 = "Examen orthopédique : \n"
 +"Membre inférieur non opéré : \n"
 +"   "+orthoNOpTxt+"\n"
 +"Membres supérieurs : \n"
-+"   "+orthoNOpTxt+"\n"
++"   "+orthoMSTxt+"\n"
 +orthoFct+"\n"
 
 ;
