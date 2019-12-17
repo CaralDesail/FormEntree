@@ -1,4 +1,4 @@
-The objective of this web application is twofold: To speed up the "computer filling" part when admitting patients.
+﻿The objective of this web application is twofold: To speed up the "computer filling" part when admitting patients.
 Fill in "automatically" the PMSI form requested by the structure at each entry, and which sometimes takes word for word elements that have already been filled in before ... Technical documentation is available in the "help" directory.
 
 The webapp runs on : http://aref.ovh/static/FormEntree/Form.php
@@ -12,3 +12,4 @@ Remplir "automatiquement" le formulaire PMSI demandé par la structure à chaque
 
 L'application est en fonctionnement sur : http://aref.ovh/static/FormEntree/Form.php
 Github Repository : https://github.com/CaralDesail/FormEntree
+.
