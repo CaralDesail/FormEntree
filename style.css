@@ -15,7 +15,7 @@
 	  left:8;
 	  line-height: 1.5;
 	  margin-top: -0.2em;
-
+	  visibility: hidden; // for the moment because Juliette fonctionality is not enterly created
 }
 
 
