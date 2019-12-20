@@ -137,6 +137,23 @@
 			
 	<br><br>
 	
+	<div id="check_cote">
+	<br>
+	<!-- gen et psy -->
+  <input type="checkbox" id="checkbox1" name="checkbox1" checked> <br>
+   <br>
+  <input type="checkbox" id="checkbox2" name="checkbox2" checked> <br>
+  <input type="checkbox" id="checkbox3" name="checkbox3" checked> <br>
+  <br><br><br><br>
+  	<!-- cv -->
+  <input type="checkbox" id="checkbox4" name="checkbox4" checked> <br>
+    <br><br><br><br><br><br>
+    <!-- abdo -->
+  <input type="checkbox" id="checkbox5" name="checkbox5" checked> <br>
+
+  
+	</div>
+	
 	<h4>Etat général et psychologique : </h4>
 	Variation pondérale : <input type="text" size="40" name="varPoids" id="varPoids" value="Pas de variation significative." onblur="myFunctionZoneFinale()"><br>
 	Etat psychologique* : <br>

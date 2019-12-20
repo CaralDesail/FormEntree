@@ -26,7 +26,7 @@
 			private $_nombre_de_lignes;
 			private $_index=1;
 			private $_my_array=[];
-			private $_var_code="| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp |";
+			private $_var_code="| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | ";
 			private $_label = "";
 			
 			public function __construct ($_passage_de_nombre){
@@ -143,9 +143,9 @@
 		
 		$radioAbdo=$_POST['radioAbdo'];
 		
-		$CODE_FinPrinc='| Z| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp |';
-		$CODE_ManifMorb='| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp |';
-		$CODE_AffEt='| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp |';
+		$CODE_FinPrinc='| Z| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | ';
+		$CODE_ManifMorb='| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | ';
+		$CODE_AffEt='| &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | &nbsp;&nbsp | ';
 
 		// calculate first day of week
 		$day = date('w');

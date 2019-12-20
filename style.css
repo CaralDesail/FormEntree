@@ -10,6 +10,16 @@
    font-size: 3em;
 }
 
+#check_cote{
+	  position: absolute;
+	  left:8;
+	  line-height: 1.5;
+	  margin-top: -0.2em;
+
+}
+
+
+
 /* Just to play with animations */
 .copiedtext {
   position: absolute;
